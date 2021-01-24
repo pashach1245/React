@@ -1,0 +1,60 @@
+.users__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 15px;
+}
+
+.users {
+    margin-top: 15px;
+    padding: 20px 150px;
+
+    background-color: #ffffff;
+}
+
+.user {
+    position: relative;
+
+    padding-left:100px;
+    margin-bottom: 40px;
+}
+
+.user__img {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    border-radius: 50%;
+}
+
+.user__status {
+    margin-top: 5px;
+}
+
+.user__follow {
+    margin-top: 10px;
+}
+
+.user__name {
+    text-decoration: none;
+    color: #000000;
+}
+
+.follow__btn {
+    padding: 10px;
+    border: 0;
+    background-color: #e5ebf1;
+
+    cursor: pointer;
+
+    color: #aeb7c2;
+}
+
+.follow__btn:focus {
+    outline: 0;
+}
